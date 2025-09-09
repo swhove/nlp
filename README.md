@@ -9,8 +9,8 @@ ku course, semester 3
 
 2. **pull** latest changes from online repo
    1. *methods*
-      1. click the arrows in the status bar (bottom left of vs code)
-      2. CMD SHIFT P -> Git: Pull
+         1. click the arrows in the status bar (bottom left of vs code)
+         2. CMD SHIFT P -> Git: Pull
    2. *why*
       1. this updates my local repository - so if i uploaded documents to the github online version, then these documents will appear in my local repository, allowing me to update them 
 
@@ -21,12 +21,20 @@ ku course, semester 3
 
 4. **commit & push** changes
    1. *method*
+      1. open VS Code terminal (view Terminal)
+      2. `git add .`
+      3. `git commit -m "message"`
+      4. `git push origin main`
+         1. pushing edit to main branch
+
+---
+   2. *other method*
       1. source control view (left hand size) -> write a message explaining the change -> Commit -> Push
          1. or can click the arrow next to Commit, and click Commit & Push
-   2. *commit - what*
+   3. *commit - what*
       1. takes the current version of my saved file & stores in my local Git repo
       2. allows me to track changes 
-   3. *push - what*
+   4. *push - what*
       1. sends the local commits from my local git repo -> to my online (remote) Github repo
       2. so i can see changes in online github 
       3. and others can see it (if the repo is shared with them )
